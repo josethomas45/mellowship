@@ -14,18 +14,19 @@ function AtAGlance() {
   return (
     <div className="at-a-glance">
       <div className="glance-top">
-        <div>
-          <h3>At a Glance</h3>
-          <p className="guest-count">80 unique guests</p>
-        </div>
-        <div className="glance-right">
-          <p>Last Registered 1st May at 7:42 PM</p>
-          <p align="right"> 
-            59 <span className="green-text">shortlisted</span>{' '} 
-            11 <span className="green-text">unclaimed</span> 
-          </p>
-        </div>
-      </div>
+  <div className="glance-left">
+    <h3>At a Glance</h3>
+    <p className="guest-count">80 unique guests</p>
+  </div>
+  <div className="glance-right">
+    <p className="last-registered">Last Registered 1st May at 7:42 PM</p>
+    <p className="status-summary">
+      59 <span className="green-text">shortlisted</span>{' '}
+      11 <span className="green-text">unclaimed</span>
+    </p>
+  </div>
+</div>
+
       
       <div className="glance-bar">
         {ticketData.map((ticket, index) => (

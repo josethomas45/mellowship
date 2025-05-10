@@ -120,7 +120,19 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.glance-left, .glance-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.glance-left h3,
+.glance-left .guest-count,
+.glance-right .last-registered,
+.glance-right .status-summary {
+  margin: 4px 0;
 }
 
 .guest-count {
@@ -586,21 +598,19 @@ body {
   
   .glance-top {
     flex-direction: column;
-    gap: 10px;
+  }
+
+  .glance-left, .glance-right {
+    width: 100%;
   }
 
   .glance-right {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    flex-wrap: wrap; /* Optional: allows wrapping if space is tight */
-    justify-content: space-between; /* Optional: spaces out children */
-    width: 100%;
+    flex-direction: column;
   }
 
-  .glance-right > * {
-    flex: 1; /* Make children take equal space */
-    min-width: 100px; /* Optional: prevents elements from shrinking too much */
+  .status-summary {
+    text-align: left;
   }
   
   .guest-row {
