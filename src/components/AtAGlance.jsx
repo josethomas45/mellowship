@@ -20,7 +20,7 @@ function AtAGlance() {
   </div>
   <div className="glance-right">
     <p className="last-registered">Last Registered 1st May at 7:42 PM</p>
-    <p className="status-summary" align="right">
+    <p className="status-summary" >
       59 <span className="green-text">shortlisted</span>{' '}
       11 <span className="green-text">unclaimed</span>
     </p>
