@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import AtAGlance from './components/AtAGlance';
+import ActionBar from './components/ActionBar';
+import GuestsTable from './components/GuestsTable';
+import PaginationFooter from './components/PaginationFooter';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <AtAGlance />
+      <ActionBar />
+      <div className="guests-container">
+        <h2>Guests List</h2>
+        <div className="search-container">
+          <input 
+            type="text" 
+            placeholder="Search" 
+            className="search-input" 
+          />
+        </div>
+        <GuestsTable />
+        <PaginationFooter />
+      </div>
     </div>
   );
 }
