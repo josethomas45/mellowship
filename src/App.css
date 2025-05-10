@@ -639,15 +639,17 @@ body {
     align-items: flex-start; /* Left alignment instead of center */
     gap: 15px;
     width: 100%;
+    position: relative;
   }
   
   .social-icons {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    justify-content: flex-end;
-    width: auto;
-    margin-left: 0;
-  }
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px; /* Optional: spacing from the corner */
+}
   
 }
