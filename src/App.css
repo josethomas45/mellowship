@@ -617,13 +617,18 @@ body {
   }
   
   .social-icons {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    justify-content: flex-end;
-    width: auto;
-    margin-left: 0;
-  }
+  position: absolute;
+  right: 20px;
+  margin-left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* prevent interaction when hidden */
+}
+.social-icons.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
   
   .page-nav {
     flex-direction: column;
