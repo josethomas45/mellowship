@@ -1,12 +1,14 @@
 /* Body and Global Styles */
 body {
   margin: 0;
-  background: radial-gradient(
-    circle at top left,
-    #7662FC 0%,
-    #0d1a14 40%,
-    #0d0d0d 100%
-  );
+  background: linear-gradient(
+      180deg,
+      #2b2640 0%,
+      #1a1b26 20%,
+      #1a2e35 40%,
+      #0d1a14 60%,
+      #0d0d0d 100%
+    );
   color: white;
   font-family: sans-serif;
 }
@@ -120,19 +122,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 10px;
-}
-
-.glance-left, .glance-right {
-  flex: 1;
-  min-width: 250px;
-}
-
-.glance-left h3,
-.glance-left .guest-count,
-.glance-right .last-registered,
-.glance-right .status-summary {
-  margin: 4px 0;
+  margin-bottom: 10px;
 }
 
 .guest-count {
@@ -598,19 +588,7 @@ body {
   
   .glance-top {
     flex-direction: column;
-  }
-
-  .glance-left, .glance-right {
-    width: 100%;
-  }
-
-  .glance-right {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .status-summary {
-    text-align: left;
+    gap: 10px;
   }
   
   .guest-row {
