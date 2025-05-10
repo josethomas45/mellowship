@@ -592,7 +592,7 @@ body {
   
   .glance-top {
     flex-direction: column;
-    gap: 100px;
+    gap: 10px;
   }
 
   .status-summary{
@@ -617,6 +617,7 @@ body {
   }
   
   .social-icons {
+    position: fixed;
     bottom: 20px;
     right: 20px;
     justify-content: flex-end;
