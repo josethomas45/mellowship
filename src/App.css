@@ -120,9 +120,26 @@ body {
 .glance-top {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.glance-left,
+.glance-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.glance-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.status-summary {
+  margin-top: 5px;
 }
 
 .guest-count {
@@ -589,6 +606,18 @@ body {
   .glance-top {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .glance-right {
+    align-items: flex-end; /* stays right-aligned */
+    text-align: right;
+  }
+
+  .glance-right .last-registered,
+  .glance-right .status-summary {
+    max-width: 100%;
+    word-wrap: break-word;
+    font-size: 14px;
   }
   
   .guest-row {
