@@ -385,10 +385,17 @@ body {
   padding: 0 20px 0 0;
 }
 
+.record-count,
+.per-page,
+.page-nav {
+  flex: 1;
+}
+
 .per-page {
   display: flex;
   align-items: center;
   gap: 8px;
+  justify-content: center;
 }
 
 .per-page select {
@@ -403,6 +410,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  justify-content: flex-end;
 }
 
 .page-buttons {
@@ -422,7 +430,6 @@ body {
   border-radius: 3px;
   cursor: pointer;
 }
-
 /* Footer */
 .footer {
   margin-top: 30px;
@@ -572,6 +579,19 @@ body {
     gap: 15px;
     justify-content: center;
     padding: 0 10px;
+  }
+
+  .record-count {
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .per-page {
+    justify-content: center;
+  }
+
+  .page-nav {
+    justify-content: flex-end;
   }
 }
 
