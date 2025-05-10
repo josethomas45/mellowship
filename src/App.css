@@ -607,10 +607,12 @@ body {
   }
   
   .social-icons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    justify-content: flex-end;
+    width: auto;
     margin-left: 0;
-    display: flex;
-    justify-content: flex-start; /* Left alignment instead of center */
-    width: 100%;
   }
   
   .page-nav {
