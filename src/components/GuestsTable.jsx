@@ -53,10 +53,18 @@ function GuestsTable() {
             <div className="guest-status">
               <div className="days-ago">{guest.daysAgo} days ago</div>
               <div className="status-icons">
-                <span className="status-icon edit-icon">✏️</span>
-                <span className="status-icon check-icon">✓</span>
-                <span className="status-icon dollar-icon">$</span>
-                <span className="status-icon ticket-icon">🎟️</span>
+                <span className="status-icon edit-icon">
+                  <img src="/images/SVG (3).png" alt="Edit" className="icon-image" />
+                </span>
+                <span className="status-icon edit-icon">
+                  <img src="/images/SVG (2).png" alt="Edit" className="icon-image" />
+                </span>
+                <span className="status-icon edit-icon">
+                  <img src="/images/SVG (1).png" alt="Edit" className="icon-image" />
+                </span>
+                <span className="status-icon edit-icon">
+                  <img src="/images/SVG.png" alt="Edit" className="icon-image" />
+                </span>
               </div>
             </div>
           </div>

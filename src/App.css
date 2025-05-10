@@ -220,16 +220,18 @@ body {
 .action-button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #1f1f1f;
+  justify-content: center;
+  height: 40px;
+  background-color: rgba(80, 80, 80, 0.3); /* light greyish-black */
   color: white;
-  border: none;
+  border: 1px solid rgba(99, 99, 99, 0.4); /* lighter border */
   border-radius: 4px;
   padding: 7px 20px;
   font-size: 14px;
   cursor: pointer;
-  min-width: 270px;
+  min-width: 280px;
 }
+
 
 .action-button .icon {
   margin-left: 10px;
@@ -255,14 +257,15 @@ body {
 .search-input {
   width: 98%;
   padding: 10px 0.1111111%;
-  background-color: #222222;
-  border: 1px solid #333333;
+  background-color:  rgba(80, 80, 80, 0.3);
+  border: 1px solid rgba(99, 99, 99, 0.4);
   border-radius: 4px;
   color: white;
   font-size: 14px;
 }
 
 .search-input::placeholder {
+  padding: 0 10px;
   color: #777777;
 }
 
@@ -286,8 +289,8 @@ body {
 
 .select-multiple,
 .dropdown-button {
-  background-color: #4d4d4d;
-  border: 1px solid #4d4d4d;
+  background-color: rgba(80, 80, 80, 0.3);
+  border: 1px solid rgba(80, 80, 80, 0.3);
   color: #ffffff;
   font-size: 12px;
   cursor: pointer;
@@ -302,6 +305,7 @@ body {
 .select-multiple:hover,
 .dropdown-button:hover {
   background-color: #e6e6e6;
+  color: #000000;
 }
 
 .dropdown-button .dropdown-icon {
@@ -311,7 +315,7 @@ body {
 
 /* Table Content */
 .table-content {
-  background-color: #1a1a1a;
+  background-color: rgba(80, 80, 80, 0.3);
   border-radius: 6px;
   padding: 5px;
   width: 97.5%;
