@@ -1,4 +1,4 @@
-/* Body and Global Styles */
+
 body {
   margin: 0;
   background: linear-gradient(
@@ -230,9 +230,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 40px;
-  background-color: rgba(80, 80, 80, 0.3); /* light greyish-black */
+  background-color: rgba(80, 80, 80, 0.3); 
   color: white;
-  border: 1px solid rgba(99, 99, 99, 0.4); /* lighter border */
+  border: 1px solid rgba(99, 99, 99, 0.4); 
   border-radius: 4px;
   padding: 7px 20px;
   font-size: 14px;
@@ -454,10 +454,10 @@ body {
   gap: 6px;
 }
 
-/* Responsive Styling - Only Applied at Smaller Screens */
+
 @media (max-width: 1024px) {
   .right-section {
-    position: absolute; /* Keep at top right */
+    position: absolute; 
     top: 20px;
     right: 20px;
   }
@@ -639,7 +639,7 @@ body {
   
   .footer {
     flex-direction: column;
-    align-items: flex-start; /* Left alignment instead of center */
+    align-items: flex-start; 
     gap: 15px;
     width: 100%;
     position: relative;
@@ -652,7 +652,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px; /* Optional: spacing from the corner */
+  padding: 10px; 
 }
   
 }
