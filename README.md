@@ -1,8 +1,6 @@
-# MakeMyPass – Guest Management Dashboard
+# MakeMyPass – Guest Management Dashboard (Frontend Only)
 
-MakeMyPass is a responsive React-based web application built for managing and tracking guest information in events. It provides an intuitive dashboard experience with key features like filtering, pagination, and responsive layout to enhance usability.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MakeMyPass is a responsive React-based web application built to manage and track guest information for events. This repository contains **only the frontend** of the project, developed using React and plain CSS, offering a clean, minimal, and responsive user interface.
 
 ## 🎯 Key Features
 
@@ -12,6 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - 📄 Paginated Guest Table with Per Page Control
 - 🎨 Clean and Minimal UI using Plain CSS
 - 📱 Fully Responsive Design for Mobile & Desktop
+
+## 🚧 Note
+
+This repository includes only the **frontend implementation**. Backend services such as API integration and database connectivity are not part of this repo.
 
 ## 📁 Project Structure
 
@@ -24,42 +26,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - `GuestsTable.jsx`
   - `PaginationFooter.jsx`
 
-## Available Scripts
+## 📦 Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
 
 Runs the app in development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.  
-The page will reload if you make edits. You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.  
-Refer to [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for best performance.
-
-The build is minified and the filenames include the hashes.  
-Your app is ready to be deployed!
-
-Refer to [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more details.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-This command will copy all configuration files and dependencies (webpack, Babel, ESLint, etc.) into your project.  
-It gives you full control but is not reversible.
+Builds the app for production to the `build` folder.
 
 ## 📚 Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).  
 To learn React, check out the [React documentation](https://reactjs.org/).
-
----
-
