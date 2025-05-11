@@ -113,7 +113,7 @@ body {
 
 /* AT A GLANCE STYLING */
 .at-a-glance {
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 0 20px;
 }
 
@@ -125,9 +125,11 @@ body {
   margin-bottom: 10px;
 }
 
-.status-summary{
-  align-items: right;
+.status-summary {
+  margin-left: auto;
+  text-align: right;
 }
+
 
 .guest-count {
   color: #22c55e;
@@ -620,9 +622,10 @@ body {
     gap: 10px;
   }
 
-  .status-summary{
-  align-items: left;
-}
+  .status-summary {
+    margin-left: 0;
+    text-align: left;
+  }
   
   .guest-row {
     flex-wrap: wrap;

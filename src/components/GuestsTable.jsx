@@ -23,19 +23,19 @@ function GuestsTable() {
           <button className="select-multiple">Select Multiple</button>
           <div className="status-dropdown">
             <button className="dropdown-button">
-              Checked In
+              Checked In | 
               <span className="dropdown-icon">▼</span>
             </button>
           </div>
           <div className="status-dropdown">
             <button className="dropdown-button">
-              Approval Status
+              Approval Status | 
               <span className="dropdown-icon">▼</span>
             </button>
           </div>
           <div className="status-dropdown">
             <button className="dropdown-button">
-              Registration Status
+              Registration Status | 
               <span className="dropdown-icon">▼</span>
             </button>
           </div>
